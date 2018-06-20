@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/BitriseTestXamarin/BitriseTestXamarin/BitriseTestXamarin/obj
+/BitriseTestXamarin/BitriseTestXamarin/BitriseTestXamarin.Android/obj/Debug
+/BitriseTestXamarin/BitriseTestXamarin/BitriseTestXamarin.Android/obj
+/BitriseTestXamarin/BitriseTestXamarin/BitriseTestXamarin.iOS/obj
+/BitriseTestXamarin/BitriseTestXamarin/BitriseTestXamarin.UWP/obj
+/BitriseTestXamarin/.vs/BitriseTestXamarin/v15/Server/sqlite3
+/.vs
