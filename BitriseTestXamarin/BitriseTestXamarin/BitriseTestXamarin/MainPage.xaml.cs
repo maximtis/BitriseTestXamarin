@@ -12,7 +12,7 @@ namespace BitriseTestXamarin
 		public MainPage()
 		{
 			InitializeComponent();
-            //Test
+            //Test12321
 		}
 	}
 }
