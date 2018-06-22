@@ -1,14 +1,14 @@
 ﻿using System;
 using BitriseTestXamarin.Classes;
 using BitriseTestXamarin.ViewModels;
-using Xunit;
+using NUnit.Framework;
 
 namespace UnitTestProject1
 {
-    
+    [TestFixture]
     public class MainUnitTests
     {
-        [Fact]
+        [Test]
         public void TestLogicCalcHash()
         {
             //Arrange
@@ -22,10 +22,10 @@ namespace UnitTestProject1
             var calculatedHash = logic.CalculateHash(controlNamberA, controlNumberB);
 
             //Assert
-            Assert.Equal(controlResult, calculatedHash);
+            Assert.AreEqual(controlResult, calculatedHash);
         }
 
-        [Fact]
+        [Test]
         public void TestLogicCalcHashTwo()
         {
             //Arrange
@@ -39,7 +39,7 @@ namespace UnitTestProject1
             var calculatedHash = logic.CalculateHash(controlNamberA, controlNumberB);
 
             //Assert
-            Assert.Equal(controlResult, calculatedHash);
+            Assert.AreEqual(controlResult, calculatedHash);
         }
     }
 }

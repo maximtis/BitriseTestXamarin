@@ -1,13 +1,14 @@
 ﻿using System;
 using BitriseTestXamarin.Classes;
 using BitriseTestXamarin.ViewModels;
-using Xunit;
+using NUnit.Framework;
 
 namespace UnitTestProject1
 {
+    [TestFixture]
     public class MainViewModelTests
     {
-        [Fact]
+        [Test]
         public void TestViewModel_SetApplicationName()
         {
             //Arrange
@@ -20,10 +21,10 @@ namespace UnitTestProject1
             var resultName = viewModel.GetApplicationName();
 
             //Assert
-            Assert.Equal(controlAppName, resultName);
+            Assert.AreEqual(controlAppName, resultName);
         }
 
-        [Fact]
+        [Test]
         public void TestViewModel_SetReleaseNumber()
         {
             //Arrange
@@ -36,7 +37,7 @@ namespace UnitTestProject1
             var resultReleaseNumber = viewModel.GetReleaseNumber();
 
             //Assert
-            Assert.Equal(controlReleaseNumber, resultReleaseNumber);
+            Assert.AreEqual(controlReleaseNumber, resultReleaseNumber);
         }
     }
 }
