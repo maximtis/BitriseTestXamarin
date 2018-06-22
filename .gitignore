@@ -11,3 +11,8 @@
 /.vs
 /BitriseTestXamarin/BitriseTestXamarin/BitriseTestXamarin/bin
 /BitriseTestXamarin/BitriseTestXamarin/BitriseTestXamarin.Android/bin
+/BitriseTestXamarin/BitriseTestXamarin/BitriseTestXamarin.UWP/bin/x86/Release
+/BitriseTestXamarin/packages
+/BitriseTestXamarin/UnitTestProject/obj/Release
+/BitriseTestXamarin/UnitTestProject/bin/Release
+/com.companyname.BitriseTestXamarin.apk
